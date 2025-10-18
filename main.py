@@ -4,7 +4,7 @@ def get_books_text(filePath):
         return print(file_contents)
     
 
-get_books_text('/home/kali/bootdev/bookbot/books/frankenstein.txt')
+get_books_text('books/frankenstein.txt')
 
 #hello world
 #hello github
