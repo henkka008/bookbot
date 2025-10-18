@@ -6,8 +6,8 @@ def main():
     num_words = get_num_words(text)
     counted_letters = kind_of_letters(text)
     print(f"Found {num_words} total words")
-    print(counted_letters)
-    
+    sorted_letters = sorting(counted_letters)
+    print(sorted_letters)
 
 def get_book_text(path):
     with open(path) as f:
